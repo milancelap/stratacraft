@@ -24,6 +24,7 @@
     <link rel="preload" as="style" href="/css/style.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter" media="all">
+    <script src="anime.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YHH9JE2E1"></script>
 <script>
@@ -64,7 +65,12 @@
 
 <!-- Hero -->
 <section class="px-2 pt-16 pb-32 bg-white md:px-0">
-  <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+    <div class="filter blur-xl w-full h-full inset-0 overflow-visible">
+        <svg class ="filter blur-xl absolute w-full z-0" id="ribbon" width="100" viewBox="0 0 1903 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 210.131L16.693 196.281C33.386 182.43 66.7719 154.729 100.158 161.732C133.544 168.735 166.93 210.442 200.316 220.762C233.702 231.081 267.088 210.014 300.474 192.297C333.86 174.581 367.246 160.215 400.632 142.493C434.018 124.771 467.404 103.693 500.789 91.8803C534.175 80.068 567.561 77.5214 600.947 98.0699C634.333 118.618 667.719 162.262 701.105 168.227C734.491 174.192 767.877 142.478 801.263 103.227C834.649 63.977 868.035 17.1904 901.421 6.85384C934.807 -3.48274 968.193 22.6307 1001.58 60.5372C1034.96 98.4438 1068.35 148.143 1101.74 164.789C1135.12 181.435 1168.51 165.026 1201.89 153.588C1235.28 142.149 1268.67 135.68 1302.05 153.93C1335.44 172.18 1368.82 215.15 1402.21 235.087C1435.6 255.024 1468.98 251.928 1502.37 240.475C1535.75 229.022 1569.14 209.212 1602.53 200.481C1635.91 191.75 1669.3 194.098 1702.68 201.708C1736.07 209.318 1769.46 222.191 1802.84 220.109C1836.23 218.028 1869.61 200.992 1886.31 192.474L1903 183.956V153.18L1886.31 160.187C1869.61 167.194 1836.23 181.209 1802.84 187.527C1769.46 193.846 1736.07 192.469 1702.68 176.921C1669.3 161.374 1635.91 131.657 1602.53 131.297C1569.14 130.937 1535.75 159.935 1502.37 167.127C1468.98 174.319 1435.6 159.706 1402.21 158.126C1368.82 156.545 1335.44 167.997 1302.05 168.821C1268.67 169.645 1235.28 159.841 1201.89 122.01C1168.51 84.1787 1135.12 18.3198 1101.74 3.79765C1068.35 -10.7245 1034.96 26.0899 1001.58 66.9994C968.193 107.909 934.807 152.913 901.421 170.397C868.035 187.882 834.649 177.845 801.263 168.048C767.877 158.251 734.491 148.692 701.105 149.151C667.719 149.611 634.333 160.089 600.947 167.35C567.561 174.612 534.175 178.658 500.789 174.609C467.404 170.56 434.018 158.416 400.632 169.265C367.246 180.115 333.86 213.956 300.474 213.216C267.088 212.476 233.702 177.153 200.316 161.153C166.93 145.153 133.544 148.474 100.158 140.896C66.7719 133.317 33.386 114.838 16.693 105.598L0 96.3589V210.131Z" fill="#00FF94"/>
+        </svg>
+    </div>   
+  <div class="container relative items-center max-w-6xl px-8 mx-auto xl:px-5 z-10">
     <div class="flex flex-wrap items-center sm:-mx-3">
       <div class="w-full md:w-1/2 md:px-3">
         <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
@@ -373,5 +379,7 @@
     </div>
 </section>
 <script src="https://kwes.io/v2/kwes-script.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
